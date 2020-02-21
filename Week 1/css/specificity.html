@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS specificity</title>
+    <style>
+      p {
+        font-size: 120%; /* option one */
+      }
+
+      div p {
+        font-size: 0.5em; /* option two */
+      }
+
+      #welcome {
+        font-size: 10px; /* option three */
+      }
+    </style>
+  </head>
+  <body>
+    <p>CSS specificity</p>
+    <div>
+      <!-- Remove: style -->
+      <p id="welcome" style="font-size: 20px">
+        Hello world, welcome to TechRex frontend zero to hero
+      </p>
+    </div>
+  </body>
+</html>

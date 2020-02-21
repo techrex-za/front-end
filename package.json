@@ -1,0 +1,13 @@
+{
+  "name": "web-dev-course",
+  "version": "1.0.0",
+  "description": "Learn to build websites",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Learn to build websites",
   "scripts": {
-    "start": "live-server"
+    "start": "npx live-server"
   },
   "author": "",
   "license": "ISC",

@@ -1,4 +1,4 @@
 {
-  "ignore": "package.json,package-lock.json, ./node_modules", // comma-separated string for paths to ignore
+  "ignore": "package.json, package-lock.json, ./node_modules", // comma-separated string for paths to ignore
   "mount": [["/components", "./node_modules"]] // Mount a directory to a route.
 }
